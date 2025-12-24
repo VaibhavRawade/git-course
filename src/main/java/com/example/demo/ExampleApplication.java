@@ -11,10 +11,6 @@ public class ExampleApplication {
     public static void main(String[] args)
     {
         SpringApplication.run(ExampleApplication.class, args);
-        NewFile n=new NewFile();
-        n.a=10;
-        n.b=20;
-        System.out.println(n.getData());
     }
 
     @GetMapping("/hello")
